@@ -100,8 +100,8 @@ h1, h2, h3, h4, h5, h6{
 .btnlink{
     color: black;
     font-weight: 700;
-    padding: 8px 100px;
-}
+    /* padding: 8px 100px;*/
+} 
 
 .btnlink.active{
     color: #FFA101 !important;
@@ -198,12 +198,83 @@ h1, h2, h3, h4, h5, h6{
     top: -4px;
 }
 
+img.arows {
+    position: absolute;
+    left: 9px;
+}
+
+img.arows.lightArow {
+    bottom: -11px;
+}
+img.arows.darkArow {
+    bottom: -21px;
+}
+
 .qurylistthree{
     left: -2px;
     top: -4px;
 }
 
+.submitrequestform{
+    width: 500px;
+    border: 1px solid gray;
+    margin: 20px 0px;
+    padding-bottom: 20px;
+}
 
+.labelitem{
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.requestheading{
+    font-weight: 700;
+}
+
+.titlepart{
+    padding: 27px 0px;
+}
+
+.smtbtn{
+    background-color: #FF921A;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+
+.chklbl{
+    font-size: 14px;
+}
+
+.chekbx{
+    padding-left: 74px;
+}
+
+.btnpart{
+    display: flex;
+    justify-content: center;
+}
+
+.mbinput{
+    border-left: none;
+}
+
+.mbcode{
+    background-color: white !important;
+}
+
+.chekboxitem{
+    padding: 4px 0px;
+}
+
+.chekbxone{
+    padding-left: 55px;
+}
+
+.condtn{
+    color: #FFA101;
+}
 @media (max-width: 1200px) { }
 
 @media (max-width: 992px) { 
@@ -231,8 +302,8 @@ h1, h2, h3, h4, h5, h6{
     }
 
     .imgcntsec{
-        /* display: flex; */
-        display: block;
+        display: flex;
+       
     }
  }
 
