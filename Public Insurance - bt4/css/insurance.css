@@ -230,6 +230,10 @@ img.arows.darkArow {
     padding-top: 3px;
 }
 
+.mdlheaderpart{
+    border-bottom: none;
+}
+
 .titlepart{
     padding: 27px 0px;
     position: relative;
@@ -261,6 +265,7 @@ img.arows.darkArow {
 .btnpart{
     display: flex;
     justify-content: center;
+    border-top: none !important;
 }
 
 .mbinput{

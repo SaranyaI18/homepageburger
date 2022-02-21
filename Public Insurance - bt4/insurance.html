@@ -199,7 +199,8 @@
                                     </div>
                                 </li>
                             </ul>
-                            <button class="text-white btn requestbutton fw-bold" data-toggle="modal" data-target="#modalform">
+                            <button class="text-white btn requestbutton fw-bold" data-toggle="modal"
+                                data-target="#modalform">
                                 Submit request
                             </button>
                         </div>
@@ -225,98 +226,97 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="modalform" tabindex="-1" role="dialog"
-        aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modalform" tabindex="-1" role="dialog" aria-labelledby="formModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div>
-                <div class="modal-header">     
-                        <h4 class="requestheading">Request for HashInsure</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span class="closeicon" aria-hidden="true">&times;</span>
-                        </button>
+
+                <div class="modal-header mdlheaderpart">
+
+                    <h4 class="requestheading">Request for HashInsure</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="closeicon" aria-hidden="true">&times;</span>
+                    </button>
                 </div>
-            </div>
-                <div class="modal-body">
-                    <form>
-                        <div>
-                            <div class="form-row">
-                                <div class="form-group col-md-6">
-                                    <label class="labelitem" for="inputfirstname">First Name</label>
-                                    <input type="text" class="form-control" id="inputfirstname">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <label class="labelitem" for="inputlastname">Last Name</label>
-                                    <input type="text" class="form-control" id="inputlastname">
-                                </div>
+            <div class="modal-body">
+                <form>
+                    <div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label class="labelitem" for="inputfirstname">First Name</label>
+                                <input type="text" class="form-control" id="inputfirstname">
                             </div>
-                            <div class="form-group">
-                                <label class="labelitem" for="inputemail">Email</label>
-                                <input type="email" class="form-control" id="inputemail"
-                                    placeholder="yourname@host.com">
-                            </div>
-                            <div class="form-group">
-                                <label class="labelitem" for="inputmobile">Mobile</label>
-                                <div class="input-group">
-                                    <div class="input-group-prepend">
-                                        <div class="input-group-text mbcode">+61</div>
-                                    </div>
-                                    <input type="text" class="form-control mbinput" id="inputmobile">
-                                </div>
-                            </div>
-                            <div>
-                                <label class="labelitem" aria-required="true">What type(s) of Insurance would you like
-                                    to receive a quote for?<span>*</span></label><br>
-                                <div class="chekboxitem">
-                                    <div class="form-check form-check-inline ">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
-                                            value="option1">
-                                        <label class="form-check-label chklbl" for="inlineCheckbox1">Home</label>
-                                    </div>
-                                    <div class="form-check form-check-inline  chekbx">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
-                                            value="option2">
-                                        <label class="form-check-label chklbl" for="inlineCheckbox2">Business</label>
-                                    </div>
-                                </div>
-                                <div class="chekboxitem">
-                                    <div class="form-check form-check-inline ">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                            value="option3">
-                                        <label class="form-check-label chklbl" for="inlineCheckbox3">Landlord</label>
-                                    </div>
-                                    <div class="form-check form-check-inline  chekbxone">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
-                                            value="option2">
-                                        <label class="form-check-label chklbl" for="inlineCheckbox2">Landlord
-                                            (strata)</label>
-                                    </div>
-                                </div>
-                                <div class="chekboxitem">
-                                    <div class="form-check form-check-inline">
-                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
-                                            value="option3">
-                                        <label class="form-check-label chklbl" for="inlineCheckbox3">Cyber</label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group py-3">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                                    <label class="form-check-label" for="gridCheck">
-                                        I agree to the <span class="condtn">Terms & Conditions</span> of the service and
-                                        the provider
-                                    </label>
-                                </div>
-                            </div>
-                            <div class="modal-footer btnpart">
-                                <button type="submit" class="btn smtbtn">Submit Request </button>
+                            <div class="form-group col-md-6">
+                                <label class="labelitem" for="inputlastname">Last Name</label>
+                                <input type="text" class="form-control" id="inputlastname">
                             </div>
                         </div>
-                    </form>
-                </div>
+                        <div class="form-group">
+                            <label class="labelitem" for="inputemail">Email</label>
+                            <input type="email" class="form-control" id="inputemail" placeholder="yourname@host.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="labelitem" for="inputmobile">Mobile</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text mbcode">+61</div>
+                                </div>
+                                <input type="text" class="form-control mbinput" id="inputmobile">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="labelitem" aria-required="true">What type(s) of Insurance would you like
+                                to receive a quote for?<span>*</span></label><br>
+                            <div class="chekboxitem">
+                                <div class="form-check form-check-inline ">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                        value="option1">
+                                    <label class="form-check-label chklbl" for="inlineCheckbox1">Home</label>
+                                </div>
+                                <div class="form-check form-check-inline  chekbx">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                        value="option2">
+                                    <label class="form-check-label chklbl" for="inlineCheckbox2">Business</label>
+                                </div>
+                            </div>
+                            <div class="chekboxitem">
+                                <div class="form-check form-check-inline ">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                        value="option3">
+                                    <label class="form-check-label chklbl" for="inlineCheckbox3">Landlord</label>
+                                </div>
+                                <div class="form-check form-check-inline  chekbxone">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                        value="option2">
+                                    <label class="form-check-label chklbl" for="inlineCheckbox2">Landlord
+                                        (strata)</label>
+                                </div>
+                            </div>
+                            <div class="chekboxitem">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                        value="option3">
+                                    <label class="form-check-label chklbl" for="inlineCheckbox3">Cyber</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group py-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    I agree to the <span class="condtn">Terms & Conditions</span> of the service and
+                                    the provider
+                                </label>
+                            </div>
+                        </div>
+                        <div class="modal-footer btnpart">
+                            <button type="submit" class="btn smtbtn">Submit Request </button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
+    </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
