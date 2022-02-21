@@ -29,6 +29,13 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 21px;
 }
 
+.requestbutton.btn.focus, .requestbutton.btn:focus{
+    box-shadow: inherit;
+}
+
+.closeicon:focus-visible{
+    outline: inherit;
+}
 .bannerheading{
     padding: 54px 0px 10px 0px;
     color: black;
@@ -136,7 +143,7 @@ h1, h2, h3, h4, h5, h6{
 
 .navtabpart{
     background-color: #F7F7F8aa;
-    padding-top: 95px;
+    /* padding-top: 95px; */
 }
 
 .disclaimrtitle{
@@ -287,9 +294,17 @@ img.arows.darkArow {
 .condtn{
     color: #FFA101;
 }
-@media (max-width: 1200px) { }
+@media (max-width: 1199px) {
+    .insurancebanner{
+        background-position: center;
+    }
+ }
 
-@media (max-width: 992px) { 
+@media (max-width: 991px) {
+    .insurancebanner{
+        background-position: center;
+    }
+
     .protctpara{
         font: normal normal normal 15px/22px Montserrat;
     }
@@ -304,7 +319,18 @@ img.arows.darkArow {
     }
  }
 
-@media (max-width: 768px) {
+ @media (max-width: 800px){
+    .insurancebanner{
+        min-height: 450px;
+    }
+ }
+
+@media (max-width: 767px) {
+    .insurancebanner{
+        background-size: cover;
+        min-height: 450px;
+    }
+
     .protcttitle{
         font-size: 30px;
     }
@@ -320,9 +346,10 @@ img.arows.darkArow {
  }
 
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .logostyle{
         width: 207px;
+        margin-left: 33px;
     }
 
     .requestbutton{
@@ -333,4 +360,19 @@ img.arows.darkArow {
         /* display: flex; */
         display: block;
     }
+
+    .bannerheading{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .bannercontent{
+       padding-left: 15px;
+    }
+
+    .bannertitle{
+        padding-left: 22px;
+        font-size: 16px;
+    }
+    
  }
