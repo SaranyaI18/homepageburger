@@ -220,6 +220,7 @@ img.arows.darkArow {
     border: 1px solid gray;
     margin: 20px 0px;
     padding-bottom: 20px;
+    /* position: relative; */
 }
 
 .labelitem{
@@ -233,6 +234,14 @@ img.arows.darkArow {
 
 .titlepart{
     padding: 27px 0px;
+    position: relative;
+}
+
+.xmark{
+    position: absolute;
+    width: 17px;
+    top: 25px;
+    right: 0;
 }
 
 .smtbtn{
