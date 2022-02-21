@@ -30,7 +30,7 @@
                         your<br>
                         every need.</h2>
                     <p class="bannertitle">Affordable coverage that you can trust</p>
-                    <button class="text-white btn requestbutton fw-bold">
+                    <button class="text-white btn requestbutton fw-bold" data-toggle="modal" data-target="#modalform">
                         Submit request
                     </button>
                 </div>
@@ -55,16 +55,19 @@
                         </div>
                         <div class="navtabpart">
                             <nav class="pt-5">
-                                <div class="nav nav-pills nav-justified text-black font-weight-bold tabhead" id="nav-tab" role="tablist">
-                                    <a class="nav-item nav-link active btnlink" id="cy-ber" data-toggle="tab" href="#cyber"
-                                        role="presentation" aria-controls="cyber" aria-selected="true">Cyber</a>
-                                    <a class="nav-item nav-link btnlink" id="land-lords" data-toggle="tab" href="#landlords"
-                                        role="presentation" aria-controls="Landlords"
+                                <div class="nav nav-pills nav-justified text-black font-weight-bold tabhead"
+                                    id="nav-tab" role="tablist">
+                                    <a class="nav-item nav-link active btnlink" id="cy-ber" data-toggle="tab"
+                                        href="#cyber" role="presentation" aria-controls="cyber"
+                                        aria-selected="true">Cyber</a>
+                                    <a class="nav-item nav-link btnlink" id="land-lords" data-toggle="tab"
+                                        href="#landlords" role="presentation" aria-controls="Landlords"
                                         aria-selected="false">Landlords</a>
                                     <a class="nav-item nav-link btnlink" id="ho-me" data-toggle="tab" href="#home"
                                         role="presentation" aria-controls="home" aria-selected="false">Home</a>
-                                    <a class="nav-item nav-link btnlink" id="busi-ness" data-toggle="tab" href="#business"
-                                        role="presentation" aria-controls="business" aria-selected="false">Business
+                                    <a class="nav-item nav-link btnlink" id="busi-ness" data-toggle="tab"
+                                        href="#business" role="presentation" aria-controls="business"
+                                        aria-selected="false">Business
                                     </a>
                                 </div>
                             </nav>
@@ -153,17 +156,15 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="pt-5">
                             <ul class="list-group">
                                 <li class="querylist">
                                     <div class="position-relative qurylistcnt">
                                         <div class="position-absolute qurylistone">
                                             <span class="queryno">1</span>
-                                            <img class="arows lightArow"
-                                                src="img/lightdown-arrow.svg" alt="arrow" />
-                                            <img class="arows darkArow"
-                                                src="img/dark-down-arrow.svg" alt="arrow" />
+                                            <img class="arows lightArow" src="img/lightdown-arrow.svg" alt="arrow" />
+                                            <img class="arows darkArow" src="img/dark-down-arrow.svg" alt="arrow" />
                                         </div>
                                         <h5 class="enqirytitle">Submit your enquiry</h5>
                                         <p class="enqirycnt">Get started with a few simple details, and we’ll
@@ -174,10 +175,8 @@
                                     <div class="position-relative qurylistcnt">
                                         <div class="position-absolute qurylisttwo">
                                             <span class="queryno">2</span>
-                                            <img class="arows lightArow"
-                                                src="img/lightdown-arrow.svg" alt="arrow" />
-                                            <img class="arows darkArow"
-                                                src="img/dark-down-arrow.svg" alt="arrow" />
+                                            <img class="arows lightArow" src="img/lightdown-arrow.svg" alt="arrow" />
+                                            <img class="arows darkArow" src="img/dark-down-arrow.svg" alt="arrow" />
                                         </div>
                                         <h5 class="enqirytitle">Tell us about your needs</h5>
                                         <p class="enqirycnt">You’ll be presented with an enquiry from to let our
@@ -189,10 +188,8 @@
                                     <div class="position-relative qurylistcnt">
                                         <div class="position-absolute qurylistthree">
                                             <span class="queryno">3</span>
-                                            <img class="arows lightArow"
-                                                src="img/lightdown-arrow.svg" alt="arrow" />
-                                            <img class="arows darkArow"
-                                                src="img/dark-down-arrow.svg" alt="arrow" />
+                                            <img class="arows lightArow" src="img/lightdown-arrow.svg" alt="arrow" />
+                                            <img class="arows darkArow" src="img/dark-down-arrow.svg" alt="arrow" />
                                         </div>
                                         <h5 class="enqirytitle">Get an offer</h5>
                                         <p class="enqirycnt">Our partner brokers will present you with a quote based on
@@ -202,7 +199,7 @@
                                     </div>
                                 </li>
                             </ul>
-                            <button class="text-white btn requestbutton fw-bold">
+                            <button class="text-white btn requestbutton fw-bold" data-toggle="modal" data-target="#modalform">
                                 Submit request
                             </button>
                         </div>
@@ -228,81 +225,97 @@
             </div>
         </div>
     </div>
-    <div class="submitrequestform">
-        <div class="container">
-            <div class="titlepart">
-                <h4 class="requestheading">Request for HashInsure</h4>
-                
-                <img class="xmark" src="img/xmark.svg" alt="xmark">
-            
-            </div>
-            <form>
+    <div class="modal fade" id="modalform" tabindex="-1" role="dialog"
+        aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
                 <div>
-                <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label class="labelitem" for="inputfirstname">First Name</label>
-                    <input type="text" class="form-control" id="inputfirstname">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label class="labelitem" for="inputlastname">Last Name</label>
-                    <input type="text" class="form-control" id="inputlastname">
-                  </div>
+                <div class="modal-header">     
+                        <h4 class="requestheading">Request for HashInsure</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="closeicon" aria-hidden="true">&times;</span>
+                        </button>
                 </div>
-                <div class="form-group">
-                    <label class="labelitem" for="inputemail">Email</label>
-                    <input type="email" class="form-control" id="inputemail" placeholder="yourname@host.com">
-                  </div>
-                <div class="form-group">
-                  <label class="labelitem" for="inputmobile">Mobile</label>
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                        <div class="input-group-text mbcode">+61</div>
-                    </div>
-                    <input type="text" class="form-control mbinput" id="inputmobile">
-                  </div>
-                </div>
-                <div>
-                    <label class="labelitem" aria-required="true">What type(s) of Insurance would you like to receive a quote for?<span>*</span></label><br>
-                    <div class="chekboxitem">
-                    <div class="form-check form-check-inline ">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                        <label class="form-check-label chklbl" for="inlineCheckbox1">Home</label>
-                      </div>
-                      <div class="form-check form-check-inline  chekbx">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label chklbl" for="inlineCheckbox2">Business</label>
-                      </div>
-                    </div>
-                    <div class="chekboxitem">
-                      <div class="form-check form-check-inline ">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                        <label class="form-check-label chklbl" for="inlineCheckbox3">Landlord</label>
-                      </div>
-                      <div class="form-check form-check-inline  chekbxone">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                        <label class="form-check-label chklbl" for="inlineCheckbox2">Landlord (strata)</label>
-                      </div>
-                    </div>
-                    <div class="chekboxitem">
-                      <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
-                        <label class="form-check-label chklbl" for="inlineCheckbox3">Cyber</label>
-                      </div>
-                    </div>
-                </div>
-                <div class="form-group py-3">
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                      I agree to the <span class="condtn">Terms & Conditions</span> of the service and the provider
-                    </label>
-                  </div>
-                </div>
-                <div class="btnpart">
-                <button type="submit" class="btn smtbtn">Submit Request form</button>
             </div>
+                <div class="modal-body">
+                    <form>
+                        <div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label class="labelitem" for="inputfirstname">First Name</label>
+                                    <input type="text" class="form-control" id="inputfirstname">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label class="labelitem" for="inputlastname">Last Name</label>
+                                    <input type="text" class="form-control" id="inputlastname">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="labelitem" for="inputemail">Email</label>
+                                <input type="email" class="form-control" id="inputemail"
+                                    placeholder="yourname@host.com">
+                            </div>
+                            <div class="form-group">
+                                <label class="labelitem" for="inputmobile">Mobile</label>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text mbcode">+61</div>
+                                    </div>
+                                    <input type="text" class="form-control mbinput" id="inputmobile">
+                                </div>
+                            </div>
+                            <div>
+                                <label class="labelitem" aria-required="true">What type(s) of Insurance would you like
+                                    to receive a quote for?<span>*</span></label><br>
+                                <div class="chekboxitem">
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1"
+                                            value="option1">
+                                        <label class="form-check-label chklbl" for="inlineCheckbox1">Home</label>
+                                    </div>
+                                    <div class="form-check form-check-inline  chekbx">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label chklbl" for="inlineCheckbox2">Business</label>
+                                    </div>
+                                </div>
+                                <div class="chekboxitem">
+                                    <div class="form-check form-check-inline ">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                            value="option3">
+                                        <label class="form-check-label chklbl" for="inlineCheckbox3">Landlord</label>
+                                    </div>
+                                    <div class="form-check form-check-inline  chekbxone">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2"
+                                            value="option2">
+                                        <label class="form-check-label chklbl" for="inlineCheckbox2">Landlord
+                                            (strata)</label>
+                                    </div>
+                                </div>
+                                <div class="chekboxitem">
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3"
+                                            value="option3">
+                                        <label class="form-check-label chklbl" for="inlineCheckbox3">Cyber</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group py-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">
+                                        I agree to the <span class="condtn">Terms & Conditions</span> of the service and
+                                        the provider
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="modal-footer btnpart">
+                                <button type="submit" class="btn smtbtn">Submit Request </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
-              </form>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

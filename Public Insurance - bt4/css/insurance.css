@@ -215,12 +215,9 @@ img.arows.darkArow {
     top: -4px;
 }
 
-.submitrequestform{
-    width: 500px;
-    border: 1px solid gray;
-    margin: 20px 0px;
-    padding-bottom: 20px;
-    /* position: relative; */
+.closeicon{
+    font-size: 2.5rem !important;
+    font-weight: 400 !important;
 }
 
 .labelitem{
@@ -230,6 +227,7 @@ img.arows.darkArow {
 
 .requestheading{
     font-weight: 700;
+    padding-top: 3px;
 }
 
 .titlepart{
