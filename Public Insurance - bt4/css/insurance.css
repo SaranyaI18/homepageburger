@@ -81,9 +81,8 @@ h1, h2, h3, h4, h5, h6{
     padding: 0px 74px;
 }
 
-.imgpara{
-    padding: 25px 84px;
-}
+
+
 
 .imgtitle{
     font-size: 18px;
@@ -313,10 +312,9 @@ img.arows.darkArow {
         font-size: 40px;
     }
 
-    .imgcntsec{
-        /* display: flex; */
+    /* .imgcntsec{
         display: inline;
-    }
+    } */
  }
 
  @media (max-width: 800px){
@@ -336,20 +334,56 @@ img.arows.darkArow {
     }
     
     .protctpara{
-        font: normal normal normal 11px/22px Montserrat;
+        font: normal normal normal 14px/22px Montserrat;
     }
 
     .imgcntsec{
         display: flex;
-       
+    }
+
+    .bannerheading{
+        font-size: 27px;
+        text-align: start;
+    }
+
+    .logostyle{
+        width: 207px;
+    }
+
+    .bannertitle{
+        /* padding-left: 22px; */
+        font-size: 18px;
+    }
+
+    .tabimage{
+        padding: 0px;
+    }
+
+    .imgtitle {
+        font-size: 16px;
+        padding-top: 2px;
+    }
+
+    .imgcnt{
+        padding: 0px 20px;
+    }
+
+    .cacontent{
+        font-size: 20px;
     }
  }
 
 
 @media (max-width: 575px) {
+    .imgpara{
+        padding: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+
     .logostyle{
         width: 207px;
-        margin-left: 33px;
+        /* margin-left: 33px; */
     }
 
     .requestbutton{
@@ -362,17 +396,60 @@ img.arows.darkArow {
     }
 
     .bannerheading{
-        font-size: 24px;
-        text-align: center;
+        font-size: 27px;
+        text-align: start;
     }
 
+    .imgtitle{
+        font-size: 15px;
+        padding-top: 5px;
+        text-align: center;
+    }
     .bannercontent{
        padding-left: 15px;
     }
 
     .bannertitle{
-        padding-left: 22px;
+        /* padding-left: 22px; */
         font-size: 16px;
     }
+
+    .tabimage{
+        display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: inherit;
+    }
+
+    .imgcnt{
+        padding: 0;
+    }
     
- }
+    .cacontent {
+        color: #FFA101;
+        font-size: 21px;
+        padding-top: 22px;
+        font-weight: 700;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px){
+    .imgpara{
+        padding: 0px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .logostyle{
+        width: 207px;
+        /* margin-left: 33px; */
+    }
+
+    .bannerheading{
+        font-size: 27px;
+        text-align: start;
+    }
+} 
+
