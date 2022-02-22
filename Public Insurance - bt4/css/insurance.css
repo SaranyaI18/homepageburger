@@ -475,6 +475,20 @@ img.arows.darkArow {
     }
 }
 
+@media (max-width: 415px){
+    .tabhead{
+        display: block !important;
+    overflow: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+    }
+
+    .tabhead .btnlink {
+        display: inline-block;
+        padding: 12px 20px;
+    }
+}
+
 @media (max-width: 400px){
     .imgpara{
         padding: 0px;
