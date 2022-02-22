@@ -59,6 +59,12 @@ h1, h2, h3, h4, h5, h6{
 
 .protctsec{
     padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.formipt.form-control:focus, .mbinput.form-control:focus{
+    border-color: #ced4da !important;
+    box-shadow: inherit !important;
 }
 
 .middlesec{
@@ -68,6 +74,7 @@ h1, h2, h3, h4, h5, h6{
 .protctpara{
     font: normal normal normal 19px/22px Montserrat;
     padding-top: 15px;
+    margin-bottom: inherit;
 }
 
 .cacontent{
@@ -315,6 +322,39 @@ img.arows.darkArow {
     /* .imgcntsec{
         display: inline;
     } */
+
+    .imgtitle {
+        font-size: 14px;
+        padding-top: 4px;
+    }
+
+    .cacontent {
+        color: #FFA101;
+        font-size: 20px;
+        padding-top: 0px;
+        font-weight: 700;
+    }
+
+    .imgcnt {
+        padding: 0px 58px; 
+    }
+
+    .tabimage {
+        padding-left: 0px;
+    }
+
+    .imgpara{
+        font-size: 14px;
+        padding-top: 20px;
+    }
+
+    .enqirycnt {
+        font-size: 14px;
+    }
+
+    .enqirytitle {
+        font-size: 17px;
+    }
  }
 
  @media (max-width: 800px){
