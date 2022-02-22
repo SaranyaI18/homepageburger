@@ -152,6 +152,10 @@ h1, h2, h3, h4, h5, h6{
     /* padding-top: 95px; */
 }
 
+.tbcnt{
+    padding: 60px 60px 30px 60px;
+}
+
 .disclaimrtitle{
     color: black;
     font-style: italic;
@@ -241,6 +245,11 @@ img.arows.darkArow {
 .requestheading{
     font-weight: 700;
     padding-top: 3px;
+}
+
+.imgpara{
+    padding-top: 20px;
+    font-size: 18px;
 }
 
 .mdlheaderpart{
