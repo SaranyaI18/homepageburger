@@ -424,10 +424,19 @@ img.arows.darkArow {
 
 
 @media (max-width: 575px) {
+
+    /* .imgtitle {
+        font-size: 14px;
+    } */
+
+    .tbcnt{
+        padding: 40px 15px 30px;
+    }
+
     .imgpara{
         padding: 0px;
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .logostyle{
@@ -450,7 +459,7 @@ img.arows.darkArow {
     }
 
     .imgtitle{
-        font-size: 15px;
+        font-size: 14px;
         padding-top: 5px;
         text-align: center;
     }
@@ -477,7 +486,7 @@ img.arows.darkArow {
     
     .cacontent {
         color: #FFA101;
-        font-size: 21px;
+        font-size: 20px;
         padding-top: 22px;
         font-weight: 700;
         text-align: center;
@@ -502,7 +511,7 @@ img.arows.darkArow {
     .imgpara{
         padding: 0px;
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .logostyle{
