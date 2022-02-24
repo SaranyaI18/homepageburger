@@ -1,0 +1,46 @@
+.listingitem{
+    list-style: none;
+}
+
+.detailitem{
+    padding: 10px 0px 10px 0px;
+    flex-grow: 1;
+}
+
+.hdnglist{
+    padding: 10px 0px;
+    flex-grow: 0;
+}
+
+.listingitem{
+    display: flex;
+}
+
+.listorder{
+    padding-left: 0px;
+}
+
+.subject{
+    font-size: 18px;
+}
+
+.enqryheading{
+    padding-left: 12px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.logosec{
+    text-align: center;
+}
+
+.hashchinglogo{
+    padding-right: 177px;
+}
+
+.logoitem{
+    padding: 23px 50px;
+}
+.insurelogo{
+    width: 203px;
+}
